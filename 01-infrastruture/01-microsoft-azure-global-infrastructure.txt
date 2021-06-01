@@ -1,0 +1,11 @@
+Azure Global
+Infra : 
+ - availability zones >>> data centers;
+ - regions >>> um ou mais availabality zones (normalmente é mais de uma para manter a resiliência e alta disponibilidade;
+ - Data Residency Boundary >>>uma ou mais regions.
+
+Azure geographies
+https://azure.microsoft.com/en-gb/global-infrastructure/geographies/
+
+As availability zones são conectadas entre si, de forma que se o serviço de uma delas cai, a outra fica disponível, segurando o tráfego e mantendo a disponibidade.
+
